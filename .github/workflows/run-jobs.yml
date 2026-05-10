@@ -85,7 +85,7 @@ jobs:
           mkdir -p docs
           mkdir -p docs/Loon
           curl -L "https://jy-mar.github.io/PxyRes/Loon/Config/scat.lcf" -o "docs/Loon/scat.lcf"
-          curl -L "https://jy-mar.github.io/PxyRes/Loon/Config/scat-ad.lcf" -o "docs/Loon/scat-ad.lcf"
+          curl -L "https://jy-mar.github.io/PxyRes/Loon/Config/scat.lcf" -o "docs/Loon/scat-ad.lcf"
           mkdir -p docs/Clash
           curl -L "https://jy-mar.github.io/PxyRes/Clash/Config/scat.yaml" -o "docs/Clash/scat.yaml"
 
