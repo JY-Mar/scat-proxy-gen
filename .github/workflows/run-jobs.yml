@@ -84,10 +84,10 @@ jobs:
         run: |
           mkdir -p docs
           mkdir -p docs/Loon
-          curl -L "https://jy-mar.github.io/PxyRes/Loon/Config/scat.lcf" -o "docs/Loon/scat.lcf"
+          curl -L "https://raw.githubusercontent.com/JY-Mar/PxyRes/refs/heads/main/Loon/Config/scat.lcf" -o "docs/Loon/scat.lcf"
           cp docs/Loon/scat.lcf docs/Loon/scat-ad.lcf
           mkdir -p docs/Clash
-          curl -L "https://jy-mar.github.io/PxyRes/Clash/Config/scat.yaml" -o "docs/Clash/scat.yaml"
+          curl -L "https://raw.githubusercontent.com/JY-Mar/PxyRes/refs/heads/main/Clash/Config/scat.yaml" -o "docs/Clash/scat.yaml"
 
       - name: 🧠 Generate merged config
         env:
